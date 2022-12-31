@@ -49,7 +49,7 @@
 	};
 </script>
 
-<form method="POST" class="w-full flex flex-col gap-4 items-start">
+<form name="netlify-form-example" method="POST" netlify-honeypot="bot-field" data-netlify="true" class="w-full flex flex-col gap-4 items-start">
 	{#each inputs as input, i}
 		<Input
 			id={input.id}
